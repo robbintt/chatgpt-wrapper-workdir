@@ -11,5 +11,8 @@
 # replace with docker + entrypoint, remove setup above when done
 source ~/virtualenvs/chatgpt_wrapper/bin/activate
 
+WORKDIR="$HOME/code/chatgpt-wrapper-workdir"
+
 # -m gpt4 might override config, config currently set to gpt4 anyways, but watch quota 25 per 3 hours
-chatgpt -p default --config-dir ~/chatgpt-wrapper --data-dir ~/chatgpt-wrapper/data/
+# profile "robbintt" uses gpt4, so does default, eventually copy original default into there to track changes
+chatgpt -p robbintt --config-dir $WORKDIR --data-dir $WORKDIR/data/

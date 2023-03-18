@@ -1,4 +1,5 @@
 
+
 chat:
   model: gpt4
   log:
@@ -10,3 +11,6 @@ debug:
   log:
     enabled: true
     filepath: logs/debug
+
+
+
