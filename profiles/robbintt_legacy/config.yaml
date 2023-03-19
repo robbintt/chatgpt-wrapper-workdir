@@ -1,0 +1,16 @@
+
+
+chat:
+  model: legacy-paid #gpt4
+  log:
+    enabled: true
+    filepath: logs/output
+
+
+debug:
+  log:
+    enabled: true
+    filepath: logs/debug
+
+
+
