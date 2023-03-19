@@ -4,7 +4,9 @@
 # manual steps, can detect if the dir exists in the future if moving it around a lot
 # virtualenv ~/virtualenvs/chatgpt_wrapper
 # . ~/virtualenvs/chatgpt_wrapper/bin/activate
-# pip install git+https://github.com/mmabrouk/chatgpt-wrapper
+# pip install -r requirements.txt
+## note that you can use branch, release, or git sha in requirements.txt: https://stackoverflow.com/a/35998253
+## For now we use branch 'main' to track development, eventually it will slow down and we will choose something stable
 # playwright install
 # mkdir ~/chatgpt_logs
 

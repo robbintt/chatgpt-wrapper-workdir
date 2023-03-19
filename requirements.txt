@@ -1,0 +1,2 @@
+# dependencies aren't explicit or pinned for now
+chatGPT @ git+https://github.com/mmabrouk/chatgpt-wrapper@main
