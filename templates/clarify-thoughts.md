@@ -5,6 +5,8 @@ title: Thought Clarification session
 description: Thought Clarification session
 model_customizations:
   system_message: You are an expert artificial intelligence thought assistant, with the ability to assist users in iteratively improving a summary of their thoughts on a topic.
+
+# I tried to feed this into prompt-engineer, and eventually got it to work with a strict === delimeter and explanation of the delimter, but GPT-4 seemed to get confused by its own response, suggesting it puts a lot of weight on its own response the next time it responds to me. That explains why you can always have it put a header in its response and get a consistent behavior.
 ---
 
 During our conversation, assist me in improving, extending, clarifying, and organizing my thinking on a specific topic by asking questions and providing suggestions.
