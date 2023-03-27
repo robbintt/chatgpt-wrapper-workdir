@@ -19,7 +19,15 @@ Run `install.sh`; it's opinionated.
 
 ## Multi account
 
-- To use multi-account, simply make a new profile. In the browser for that profile, change your login manually.
+To use multi-account, you should login to each profile. Each will have a playwright session.
+
+When you simply `chatgpt install`, you are installing to the default profile.
+
+```
+# note that if you have a custom data dir then you have to specify it here (not shown)
+chatgpt install -p <profile>
+```
+
 
 
 ## Logs
