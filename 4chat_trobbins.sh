@@ -15,4 +15,6 @@ source ~/virtualenvs/chatgpt_wrapper/bin/activate
 
 WORKDIR="$HOME/code/chatgpt-wrapper-workdir"
 
-chatgpt -p robbintt_api --config-dir $WORKDIR
+# -m gpt4 might override config, config currently set to gpt4 anyways, but watch quota 25 per 3 hours
+# profile "robbintt" uses gpt4, so does default, eventually copy original default into there to track changes
+chatgpt -p trobbins --config-dir $WORKDIR
