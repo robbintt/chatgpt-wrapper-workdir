@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# This script will also reinstall.
+
+set -ex
+
+VIRTUALENV_DIR=$HOME/virtualenvs/chatgpt_wrapper
+
+mkdir -p $HOME/virtualenvs
+
+rm -rI $VIRTUALENV_DIR
+virtualenv $VIRTUALENV_DIR
+source $VIRTUALENV_DIR/bin/activate
+
+pip install -r requirements.txt
+
+playwright install firefox
+chatgpt install
