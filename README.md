@@ -9,6 +9,13 @@ Clone this to save time.
 
 Run `install.sh`; it's opinionated.
 
+### GPT-4 (or other models) with the API
+
+1. Install normally, run the start command for the api backend, but don't specify a model.
+1. Once in the UI, use `/user-edit` to select the GPT-4 model.
+  - This will set it in the database.
+  - This is hidden and clunky, and must be done on each computer when setting up the user profile.
+
 
 ## Usage
 

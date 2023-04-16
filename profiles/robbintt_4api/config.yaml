@@ -1,7 +1,7 @@
 backend: chatgpt-api
 chat:
-  model: gpt-4-0314 #gpt-3.5-turbo #legacy-paid #gpt4 
-  model_customizations:
+  model: gpt-4 # this is not actually used but is required, it's actually set in the database by the `/user-edit` command...
+  #model_customizations:
     #temperature: .9
     #top_p: 1
     #presence_penalty: .6

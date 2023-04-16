@@ -1,7 +1,7 @@
 
 
 chat:
-  model: gpt4 #legacy-paid
+  model: gpt-4 #legacy-paid
   log:
     enabled: true
     filepath: logs/output

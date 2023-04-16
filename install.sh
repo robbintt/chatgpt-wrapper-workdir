@@ -8,7 +8,10 @@ VIRTUALENV_DIR=$HOME/virtualenvs/chatgpt_wrapper
 
 mkdir -p $HOME/virtualenvs
 
+set +e
 rm -rI $VIRTUALENV_DIR
+set -e
+
 virtualenv $VIRTUALENV_DIR
 source $VIRTUALENV_DIR/bin/activate
 
