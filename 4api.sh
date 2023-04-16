@@ -15,4 +15,4 @@ source ~/virtualenvs/chatgpt_wrapper/bin/activate
 
 WORKDIR="$HOME/code/chatgpt-wrapper-workdir"
 
-chatgpt -p robbintt_3api --config-dir $WORKDIR
+chatgpt -p robbintt_4api --config-dir $WORKDIR

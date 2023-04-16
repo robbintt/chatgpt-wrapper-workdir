@@ -1,0 +1,21 @@
+backend: chatgpt-api
+chat:
+  model: gpt-4-0314 #gpt-3.5-turbo #legacy-paid #gpt4 
+  model_customizations:
+    #temperature: .9
+    #top_p: 1
+    #presence_penalty: .6
+    #frequency_penalty: 0
+    # See '/help model_max_submission_tokens' for more information.
+    #max_submission_tokens: 4000
+    # Configure aliases to switch between system messages, key is alias, value is message.
+    # See '/help model_system_message' for more information.
+    system_message:
+      programmer: "You are an expert programmer, who responds to questions with brief examples in code."
+  log:
+    enabled: true
+    filepath: logs/output
+debug:
+  log:
+    enabled: true
+    filepath: logs/debug
