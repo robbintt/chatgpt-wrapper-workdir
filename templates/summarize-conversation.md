@@ -4,4 +4,4 @@ Provide a summary of this entire conversation to this point, following these gui
 2. Highlight the most salient points in the conversation
 3. If any action items were surfaced, mention them in a brief list
 4. If any conclusions where drawn, briefly describe them
-5. The entire summary should be no more than 100 words, but can be less.
+5. Ensure the summary has all the details and can stand on its own
